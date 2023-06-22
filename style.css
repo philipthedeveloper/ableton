@@ -144,6 +144,13 @@ nav#top-nav a:hover {
   background-color: gray;
 }
 
+#bottom-nav {
+  z-index: 150;
+  background-color: #fff;
+  width: 100%;
+  transition: 0.5s ease;
+}
+
 #bottom-nav ul {
   display: flex;
   justify-content: flex-start;
